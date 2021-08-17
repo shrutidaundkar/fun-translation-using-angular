@@ -1,0 +1,71 @@
+
+/*{  
+1------------------------------------
+Yoda 
+https://api.funtranslations.com/translate/yoda.json?text=Master%20Obiwan%20has%20lost%20a%20planet.
+{
+  "success": {
+    "total": 1
+  },
+  "contents": {
+    "translated": "Lost a planet,  master obiwan has.",
+    "text": "Master Obiwan has lost a planet.",
+    "translation": "yoda"
+  }
+}
+
+
+2------------------------------------
+Minion 
+https://api.funtranslations.com/translate/minion.json?text=Hello%2C%20I%20am%20hungry%21
+{
+"success": {
+"total": 1
+},
+"contents": {
+"translated": "Bello, ka am con a banana!",
+"text": "Hello, I am hungry!",
+"translation": "minion"
+}
+}
+
+
+3------------------------------    
+Morse code
+https://api.funtranslations.com/translate/morse.json?text=Morse%20code%20is%20a%20dit%20and%20dah
+{
+"success": {
+"total": 1
+},
+"contents": {
+"translated": "-- --- .-. ... .     -.-. --- -.. .     .. ...     .-     -.. .. -     .- -. -..     -.. .- .... ",
+"text": "Morse code is a dit and dah",
+"translation": "morse"
+}
+}
+
+4-------------------------------
+Error (Too many requests)
+{
+"error": {
+"code": 429,
+"message": "Too Many Requests: Rate limit of 5 requests per hour exceeded. Please wait for 59 minutes and 38 seconds."
+}
+
+5-------------------------------
+Chef
+https://api.funtranslations.com/translate/chef.json?text=Cooking%20is%20fun%20when%20you%20do%20it%20with%20a%20chef
+{
+"success": {
+"total": 1
+},
+"contents": {
+"translated": "Cuokeeng is fuon vhee-a yuou du it vit a cheff",
+"text": "Cooking is fun when you do it with a chef",
+"translation": "chef"
+}
+}
+
+
+
+*/
