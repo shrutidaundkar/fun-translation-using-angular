@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@font-face {
+    font-family: "Valline";
+    src: local("Valline"), url('assets/fonts/BlendaScript.otf') format("truetype");
+}
+body{
+    background-image: url('assets/images/bgblue.png'); 
+    margin: 0%;
+    font-family: "Valline", Arial, Helvetica, sans-serif;
+}
+.container{
+    padding: 1%;
+} 
+.outer-block{
+    display: block;
+} 
+.yoda-block{
+    padding: 0%;
+}
