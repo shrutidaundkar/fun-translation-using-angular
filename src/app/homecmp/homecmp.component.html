@@ -1,0 +1,117 @@
+<div class="container">
+  <br />
+  <div class="row">
+    <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+
+      <div class="card" data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;">
+        <img class="card-img" src="../../assets/images/yoda2.jpg" alt="Bologna">
+        <div class="card-img-overlay text-white d-flex flex-column justify-content-center" style="padding-top: 92%">
+          <h1 class="card-title text-warning">Baby Yoda</h1>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+
+      <div class="card" data-toggle="modal" data-target="#exampleModaltwo" style="cursor: pointer;">
+        <img class="card-img" src="../../assets/images/minion8.jpg" height="433px" alt="Bologna">
+        <div class="card-img-overlay text-white d-flex flex-column justify-content-center" style="padding-top: 92%">
+          <h1 class="card-title text-warning">Minions</h1>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+
+      <div class="card" data-toggle="modal" data-target="#exampleModalthree" style="cursor: pointer;">
+        <img class="card-img" src="../../assets/images/pirateAnimated.jpg" alt="Bologna">
+        <div class="card-img-overlay text-white d-flex flex-column justify-content-center" style="padding-top: 92%">
+          <h1 class="card-title text-warning">Pirates</h1>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!--Yoda  Modal -->
+<div class="modal fade " id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Baby Yoda</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="height: 370px; font-size: large;">
+        <iframe width="560" height="290" src="https://www.youtube.com/embed/J0QOAK2v4JM?controls=0&amp;start=35"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <p>Grogu is a character from the Star Wars Disney+ original television series 'The Mandalorian'.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" style="font-size: large;" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" style="font-size: large;" data-dismiss="modal"
+          routerLink="/yoda">Translate to Yoda</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Minion MODAL -->
+<div class="modal fade" id="exampleModaltwo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Minion</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oidfrIrwuuY?controls=0&amp;start=1"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <p class="card-text"> Minions is a spinoff and prequel to <i> Despicable Me</i> and <i>Despicable Me 2</i>.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal" routerLink="/minion">Translate to
+          Minionese</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- PIRATE MODAL -->
+<div class="modal fade" id="exampleModalthree" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Jack Sparrow</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/boLeDcdICkQ?controls=0"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <p class="card-text">Captain Jack Sparrow is a fictional character and the main protagonist of the <i>Pirates of
+            the Caribbean</i> film series.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal" routerLink="/pirate">Translate to
+          Pirate</button>
+      </div>
+    </div>
+  </div>
+</div>

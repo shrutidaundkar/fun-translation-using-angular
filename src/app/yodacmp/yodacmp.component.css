@@ -1,0 +1,65 @@
+.imgBlock{
+    max-width:250px ;
+    border-color: black;
+}
+.chatBlockContainer{
+    background: white; 
+    max-height: 300px; 
+    box-shadow: 1px 1px 2px black;
+
+}
+.chatTitle{
+    display: block; 
+    color: #77faff; 
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;  
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+.yodaChat{
+    display: block;
+    margin: 1% 2%;
+    background: rgb(9,98,121);
+    background: linear-gradient(90deg, rgba(9,98,121,1) 0%, rgba(0,212,255,1) 0%, rgba(7,111,152,1) 55%, rgba(9,81,121,1) 100%);
+    padding: 2% 3%;
+    box-shadow: rgb(255, 253, 253) 0px 1px 2px 0px, rgb(253, 253, 253) 0px 1px 3px 1px;
+    overflow-y: scroll;
+    max-height: 230px;
+    min-height: 230px;
+    box-shadow: 1px 1px 2px black;
+}
+.chatLog{
+    overflow-y: scroll; padding:1% 0% 1% 3%
+}
+.userMsg{
+    display: block; 
+    background: #efe0ed;  
+    color: black;  
+    padding:1%; 
+    border-radius: 5px;
+    border-bottom: black; 
+    margin: 1%; 
+    box-shadow: 1px 1px black;
+}
+.yodaMsg{
+    display: block; 
+    background: #c5f0f9;
+    color: black;
+     padding:1%;  
+    border-radius: 5px; 
+    margin: 1%; 
+    box-shadow: 1px 1px black;}
+.yodaMsgBlock{
+    padding-right: 40%;
+    display: block;
+    text-align: left;
+}
+.userMsgBlock{
+    padding-left: 40%;
+    display: block; 
+    text-align: right;
+}
+.sendMsgBlock{
+    background: white;
+    box-shadow: 1px 1px 1px black;
+}

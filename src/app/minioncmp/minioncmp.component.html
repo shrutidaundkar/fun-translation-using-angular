@@ -1,0 +1,46 @@
+<div class="container">
+    <div class="row "><br /><br /></div>
+    <div class="row">
+        <div class="col-md-3">
+            <img src="../../assets/images/minionHD.png" class="imgBlock" />
+        </div>
+        <div class="col-md-6 chatBlockContainer"  >
+            <div class="row">
+                <h1 class="chatTitle">
+                   Translate to Minionese...😜
+                </h1>
+            </div>
+            <div class=" yodaChat ">
+
+                <table class="chatLog">
+                    <tr *ngFor="let s of oldConvo; let i=index" style="display: block;">
+                        <td *ngIf="i%2===0; else msgBlock" class="yodaMsgBlock">
+                            <span class="yodaMsg">
+                                {{s}}
+                            </span>
+                        </td>
+                        <ng-template #msgBlock>
+                            <td class="userMsgBlock" >
+                                <span class="userMsg">{{s}}</span>
+                            </td>
+                        </ng-template>
+                    </tr>
+                </table>
+            </div>
+            <div class="row sendMsgBlock">
+                <td class="row" style="padding:2%">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-8">
+                        <input type="text" [autofocus]="true" [(ngModel)]=msg name="usermsg" class="form-control " />
+                    </div>
+                    <div class="col-md-3">
+                        <button (click)="translate()" class="btn btn-primary btn-block">Send </button>
+                    </div>
+                </td>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <img src="../../assets/images/kid.png" class="imgBlock"/>
+        </div>
+    </div>
+</div>

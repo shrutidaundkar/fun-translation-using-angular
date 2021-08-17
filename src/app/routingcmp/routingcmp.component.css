@@ -1,0 +1,25 @@
+.container::-webkit-scrollbar {
+  display: none;
+}
+.navbar>span{
+  font-size: xx-large;
+  text-decoration-style: wavy;
+  text-shadow: 1px 1px black;
+}
+.nav-link{
+  font-size: x-large;
+  color: #77faff;
+  background:transparent;
+  text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+}
+.dropdown-menu{
+  border-bottom: medium white;
+  font-weight:900;
+}
+.dropdown-item {
+  background:white;
+  color: #77faff;
+  font-size: large;
+  text-align: right;
+  font-size: larger;
+}
